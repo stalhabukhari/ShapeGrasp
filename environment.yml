@@ -5,4 +5,11 @@ dependencies:
   - python=3.9
   - anaconda::scipy
   - anaconda::scikit-image
-
+  - pip:
+    - pyglet<2
+    - trimesh<4
+    - opencv-python
+    - matplotlib==3.7.5
+    - coacd
+    - openai==1.12.0
+    - httpx==0.26.0

@@ -8,7 +8,7 @@ Task-oriented grasping of unfamiliar objects is a necessary skill for robots in 
 
 ## Installation
 
-Create the conda environment:
+Create the `llm_grasp` conda environment:
 `conda env create -f environment.yml`
 
 Install dependencies:
@@ -20,6 +20,11 @@ pip install httpx==0.26.0
 ```
 
 You wil also need to install `TypeScript` via `npm`.
+
+```sh
+sudo apt install npm -y && \
+sudo npm install -g typescript -y
+```
 
 ## Getting Started
 
